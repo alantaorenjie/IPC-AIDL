@@ -16,4 +16,5 @@ public class BookManagerService extends Service {
     public IBinder onBind(Intent intent) {
         return new BookManagerStub();
     }
+
 }
